@@ -1,6 +1,9 @@
 (prelude-require-packages
  '(racket-mode))
 
+(prelude-require-packages
+ '(material-theme))
+
 ;; Disable toolbars
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))

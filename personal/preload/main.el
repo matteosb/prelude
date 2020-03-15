@@ -1,2 +1,2 @@
 (setq prelude-guru nil)
-(setq prelude-theme 'zenburn)
+(setq prelude-theme 'material)
