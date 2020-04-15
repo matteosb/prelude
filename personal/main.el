@@ -13,3 +13,8 @@
 (add-hook 'racket-mode-hook
           (lambda ()
             (define-key racket-mode-map (kbd "C-c C-d") 'racket-describe)))
+
+(add-hook 'json-mode-hook
+          (lambda ()
+            (make-local-variable 'js-indent-level)
+            (setq js-indent-level 2)))
