@@ -1,5 +1,8 @@
+(setq js-indent-level 2)
+
 (prelude-require-packages
- '(racket-mode))
+ '(racket-mode
+   elixir-mode))
 
 (prelude-require-packages
  '(material-theme))
@@ -21,7 +24,7 @@
 
 (require 'clojure-mode)
 (put-clojure-indent 'describe 1)
-(put-clojure-indent 'it 1)
+(put-clojure-indent 'it 2)
 (put-clojure-indent 'before 1)
 (put-clojure-indent 'beforeEach 1)
 (put-clojure-indent 'after 1)
