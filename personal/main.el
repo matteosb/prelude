@@ -27,7 +27,7 @@
 (put-clojure-indent 'after 1)
 (put-clojure-indent 'afterEach 1)
 
-(require 'lsp-mode)
-(add-hook 'elixir-mode-hook #'lsp)
-(add-to-list 'exec-path "~/elixir_ls/")
-(setq projectile-indexing-method 'hybrid)
+;; (require 'lsp-mode)
+;; (add-hook 'elixir-mode-hook #'lsp)
+;; (add-to-list 'exec-path "~/elixir_ls/")
+;; (setq projectile-indexing-method 'hybrid)
