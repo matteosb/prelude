@@ -2,10 +2,7 @@
 
 (prelude-require-packages
  '(racket-mode
-   elixir-mode))
-
-(prelude-require-packages
- '(material-theme))
+   material-theme))
 
 ;; Disable toolbars
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
@@ -29,3 +26,8 @@
 (put-clojure-indent 'beforeEach 1)
 (put-clojure-indent 'after 1)
 (put-clojure-indent 'afterEach 1)
+
+(require 'lsp-mode)
+(add-hook 'elixir-mode-hook #'lsp)
+(add-to-list 'exec-path "~/elixir_ls/")
+(setq projectile-indexing-method 'hybrid)
