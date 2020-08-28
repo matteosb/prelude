@@ -3,6 +3,7 @@
 (prelude-require-packages
  '(racket-mode
    eglot
+   terraform-mode
    monokai-theme))
 
 ;; Disable toolbars
