@@ -2,7 +2,7 @@
 
 (prelude-require-packages
  '(racket-mode
-   material-theme))
+   monokai-theme))
 
 ;; Disable toolbars
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
