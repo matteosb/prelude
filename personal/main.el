@@ -2,6 +2,7 @@
 
 (prelude-require-packages
  '(racket-mode
+   eglot
    monokai-theme))
 
 ;; Disable toolbars
@@ -30,4 +31,5 @@
 ;; (require 'lsp-mode)
 ;; (add-hook 'elixir-mode-hook #'lsp)
 ;; (add-to-list 'exec-path "~/elixir_ls/")
+
 ;; (setq projectile-indexing-method 'hybrid)
